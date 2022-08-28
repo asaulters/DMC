@@ -1,0 +1,10 @@
+
+
+button{
+    background-color: #DDA15E;
+    height: 50px;
+    /* width: 80px; */
+    max-width: 180px;
+    border-radius: 10px;
+    font-size: 15px;
+}

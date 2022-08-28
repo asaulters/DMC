@@ -1,0 +1,115 @@
+:root{
+    --primaryBackground: #FEFAE0;
+    --secondary: #606C38;
+    --terciary: #283618;
+    --quad: #DDA15E;
+    --cinq: #BC6C25;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-md: 16px;
+    --fz-mdL: 20px;
+    --fz-l:25px;
+    --fz-l2:30px;
+    --fz-l3:35px;
+    --fz-xl1: 40px;
+    --fz-xl2: 45px;
+}
+.homeWrapper{
+    width: 100%;
+    background-color: var(--primaryBackground);
+}
+.heroDiv{
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+.heroDiv img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .2;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.hero_wu{
+    z-index: 1000;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 15% auto auto 5%;
+    width: 70%;
+    max-width: 500px;
+}
+.hero_wu h1{
+    color: var(--terciary);
+    font-size: var(--fz-xl1);
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+.hero_wu h6{
+    color: var(--terciary);
+    font-size: var(--fz-l);
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.servicesDiv{
+    margin: 10% auto;
+    text-align: center;
+    width: 95%;
+}
+.servicesDiv h1{
+    font-size: var(--fz-l2);
+    color: var(--terciary);
+}
+.servicesDiv p{
+    font-size: var(--fz-mdL);
+    margin-bottom: 5%;
+}
+.portfolio_testimonials{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 400px 400px;
+}
+.portfolio{
+    grid-row: 1/2;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 90% 10%;
+    grid-template-columns: 100%;
+    
+}
+.portfolio img{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.galleryButton{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: var(--quad);
+    width: 100%;
+    height: 40px;
+    z-index: 1000;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    /* margin-top: 100%; */
+    padding-top: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+    /* max-height: 300px; */
+
+}
+.galleryButton:hover{
+    opacity: 1.0;
+}
+
+.testimonial{
+    grid-row: 2/3;
+    width: 100%;
+    background-color: white;
+}

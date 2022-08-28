@@ -1,0 +1,46 @@
+:root{
+    --primaryBackground: #FEFAE0;
+    --secondary: #606C38;
+    --terciary: #283618;
+    --quad: #DDA15E;
+    --cinq: #BC6C25;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-md: 16px;
+    --fz-mdL: 20px;
+    --fz-l:25px;
+    --fz-l2:30px;
+    --fz-l3:35px;
+    --fz-xl1: 40px;
+    --fz-xl2: 45px;
+}
+
+.testimonialWrapper{
+    padding: 8%;
+    text-align: center;
+    max-height: 400px;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25px;
+    width: 30%;
+    margin: auto auto 5% auto;
+    /* grid-template-columns: repeat(1fr, auto);
+    grid-template-rows: 100%; */
+}
+.testimonialWrapper h2{
+    margin-bottom: 5%;
+}
+.testimonialWrapper p{
+    margin-bottom: 5%;
+
+}
+.testimonialWrapper h6{
+    border-top: grey 1px solid;
+    width: fit-content;
+    padding-top: 2%;
+    margin: auto;
+    font-size: var(--fz-md);
+}
