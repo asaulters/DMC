@@ -7,6 +7,7 @@ import classes from './Home.module.css'
 import Button from '../../UI/Button/Button'
 import Testimonials from './Testimonials/Testimonials';
 import Services from './Services/Services'
+import Contact from './Contact/Contact';
 
 const Home = () => {
   return (
@@ -39,6 +40,10 @@ const Home = () => {
 
       <div className={classes.servicesDiv}>
         <Services />
+      </div>
+
+      <div className={classes.contactDiv}>
+        <Contact />
       </div>
 
       </div>
