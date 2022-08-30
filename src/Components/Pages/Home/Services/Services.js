@@ -23,7 +23,7 @@ const Services = () => {
                     <h2>{ServicesData[0].service}</h2>
                 </div>
                 <div className={classes.serviceWU}>
-                    <p>{ServicesData[0].description}</p>
+                    <p>{ServicesData[0].shortDesc}</p>
                     <Button message='Learn More' />
                 </div>
             </div>
@@ -33,7 +33,7 @@ const Services = () => {
                     <h2>{ServicesData[1].service}</h2>
                 </div>
                 <div className={classes.serviceWU}>
-                    <p>{ServicesData[1].description}</p>
+                    <p>{ServicesData[1].shortDesc}</p>
                     <Button message='Learn More' />
                 </div>
             </div>
@@ -43,11 +43,12 @@ const Services = () => {
                     <h2>{ServicesData[2].service}</h2>
                 </div>
                 <div className={classes.serviceWU}>
-                    <p>{ServicesData[2].description}</p>
+                    <p>{ServicesData[2].shortDesc}</p>
                     <Button message='Learn More' />
                 </div>
             </div>
         </div>
+        <div className={classes.pusher}></div>
     </div>
   )
 }

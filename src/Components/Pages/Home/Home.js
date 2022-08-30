@@ -23,7 +23,7 @@ const Home = () => {
 
       <div className={classes.servicesDiv}>
         <h1>Services We Offer</h1>
-        <p>Here at ?DMC?, we are family-owned residential and commercial contractors. We specialize in renovations and new build. Since 2012 we've been building a reputation as a reliable, knowledgeable, and client-focues general builder, renovation expert, and home design contractor.</p><br/><br/>
+        <p>Here at ?DMC?, we are family-owned residential  contractors. We specialize in renovations and new builds. Since 2012 we've been building a reputation as a reliable, knowledgeable, and client-focues general builder, renovation expert, and home design contractor.</p><br/>
         <p>We're still the number one choice for homeowners looking to work with and established companyu that still values a personal touch and has pride in their work. We always go the extra mile to make your vision come to life.</p>
         <Button message='Learn More' />
       </div> 

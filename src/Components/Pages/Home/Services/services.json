@@ -2,16 +2,19 @@
     {
     "service": "Home",
     "description": "Remodels and home renovations can go a long way to improving the flow and function of your home, but while they can make it seem like you have more space, they can’t solve all your square footage problems.\n\n                               Mack Construction Co also offers renovations. So, whether you want to turn that unused basement space into living space or a master suite, or you need to create more room on any other floor of your home, we’re happy to discuss your needs, tell you what’s possible and help your home grow with your family’s needs.",
-    "picture": "../../../../assets/Home/living-room1.webp"
+    "picture": "../../../../assets/Home/living-room1.webp",
+    "shortDesc": "Transform your house into a home you’re proud of. Mack Construction Co serves homeowners in and around the central Mississippi area with premier-quality home remodeling and renovation services. Our…"
   },
   {
     "service": "Kitchen",
     "description": "Your kitchen is the heart of your home. A gathering place. A functional space that lets your creativity shine. One room where the whole family can gather and enjoy great meals and time together.    We know kitchens are so much more than cabinets and countertops. So that’s what we deliver. Find out more about our home renovationservices and custom kitchen remodels on this page or contact our team to find out what we can do for you.",
-    "picture": "../../../../assets/Home/kitchen1.webp"
+    "picture": "../../../../assets/Home/kitchen1.webp",
+    "shortDesc": " Transform your kitchen into an efficient, beautiful space that becomes the heart of your home. Mack Construction Co serves homeowners in and around the central Mississippi area. Our…"
   },
   {
     "service": "Bathrooms",
     "description": "Bathrooms used to be purely functional rooms. That’s not the case anymore. Your bathroom can be the spa-like retreat you dream of. It can be a place where you not only get clean, but relax, rejuvenate and take a little time to escape the world.     Our team can help you create that space, whether it’s in one small bathroom or several throughout your home. So, if you’re ready to take your bathrooms to the next level, we’re ready to help.",
-    "picture": "../../../../assets/Home/bathroom1.webp"
+    "picture": "../../../../assets/Home/bathroom1.webp",
+    "shortDesc": "Transform your bathroom into an oasis of privacy and relaxation. Mack Construction Co serves homeowners in and around the central Mississippi area with premier-quality home remodeling and renovation services. Our…"
   }
 ]

@@ -114,3 +114,47 @@
     width: 100%;
     background-color: white;
 }
+
+@media(min-width:600px){
+
+    .portfolio,
+    .testimonial{
+        max-width: 650px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .servicesDiv h1{
+        font-size: var(--fz-xl1);
+    }
+    .servicesDiv{
+        margin: 5% auto 10% auto;
+        /* overflow: hidden; */
+        height: 100%;
+    }
+
+}
+
+@media(min-width:1200px){
+    .portfolio_testimonials{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 400px;
+        width: 100%;
+        margin: 5% auto;
+    
+    }
+    .portfolio{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        max-width: 2000px;
+        height: 100%;
+        width: 100%;
+    }
+    .testimonial{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        max-width: 2000px;
+        height: 100%;
+        width: 100%;
+    }
+}

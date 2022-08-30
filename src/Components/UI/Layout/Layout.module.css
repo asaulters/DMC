@@ -1,5 +1,9 @@
 :root{
     --primaryBackground: #FEFAE0;
+    --secondary: #606C38;
+    --terciary: #283618;
+    --quad: #DDA15E;
+    --cinq: #BC6C25;
     
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
@@ -19,10 +23,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .mainHeader{
-    background-color: gray;
+    background-color: var(--secondary);
     width: 100%;
+    height: fit-content;
+    
 }
 
 nav{
@@ -32,7 +39,7 @@ nav{
     grid-template-columns: 30% 50% 20%;
 
     align-items: center;
-    background-color: gray;
+    background-color: var(--secondary);
     padding: 2% 5%;
 }
 .logoDiv{
@@ -46,17 +53,19 @@ nav{
 }
 .navLinks_a{
     display: none;
+    color: black;
+    font-weight: 800;
 }
 .burger{
     height: 50px;
     width: 50px;
     font-size: 35px;
-    background-color: gray;
+    background-color: var(--secondary);
     border: none;
     cursor: pointer;
 }
 .extendedLinks{
-    background-color: grey;
+    background-color: var(--secondary);
     z-index: 1000;
     width: 100%;
     /* height: fit-content; */
@@ -81,8 +90,12 @@ nav{
     text-align: center;
     font-weight: 500;
 }
+main{
+    grid-row: 2/3;
+}
 
 .mainFooter{
+    grid-row: 3/4;
     width: 100%;
     height: fit-content;
     background-color: black;
@@ -131,11 +144,11 @@ nav{
     .navLinks_a{
         display: block;
         text-decoration: none;
-        color: black;
+        /* color: var; */
         font-size: var(--fz-md);
         padding-top: 5px;
         text-align: center;
-        font-weight: 500;
+        font-weight: 700;
 
     }
     .burger{
