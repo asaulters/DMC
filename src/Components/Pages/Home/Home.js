@@ -15,17 +15,18 @@ const Home = () => {
       <div className={classes.heroDiv}>
         <img src={HeroImg} alt='Constructed Home' />
         <div className={classes.hero_wu}>
-          <h1>Residential and Commercial General Contractors</h1>
+          <h1>Transform your house into a home you're proud of.</h1>
           <h6>Proudly Serving Homeowners and Businesses in Mississippi for over 10 years.  </h6>
-          <Button message='Request An Estimate' />
+          <Button message='Request an Estimate' />
         </div>        
       </div>   
 
-      <div className={classes.servicesDiv}>
-        <h1>Services We Offer</h1>
-        <p>Here at ?DMC?, we are family-owned residential  contractors. We specialize in renovations and new builds. Since 2012 we've been building a reputation as a reliable, knowledgeable, and client-focues general builder, renovation expert, and home design contractor.</p><br/>
-        <p>We're still the number one choice for homeowners looking to work with and established companyu that still values a personal touch and has pride in their work. We always go the extra mile to make your vision come to life.</p>
-        <Button message='Learn More' />
+      <div className={classes.aboutDiv}>
+        <h1>We specialize in premium-quality home remodeling and home renovation.</h1><br></br>
+        <p>Here at Mack Construction Co, we are family-owned residential  contractors. We specialize in renovations and new builds. Since 2012 we've been building a reputation as a reliable, knowledgeable, and client-focues general builder, renovation expert, and home design contractor.</p>
+        <p>We're still the number one choice for homeowners looking to work with and established company that still values a personal touch and has pride in their work. We always go the extra mile to make your vision come to life.</p>
+        <h3>We’re ready to help you make your vision of a beautiful home come to life with the expertise, guidance, skill, and integrity your home remodeling project deserves.</h3>
+        <Button className={classes.servicesDivButton2} message='About Us' />
       </div> 
 
       <div className={classes.portfolio_testimonials}>

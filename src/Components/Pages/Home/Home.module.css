@@ -55,18 +55,34 @@
     font-weight: 600;
 }
 
-.servicesDiv{
+.aboutDiv{
     margin: 10% auto;
     text-align: center;
     width: 95%;
 }
-.servicesDiv h1{
+.aboutDiv h1{
     font-size: var(--fz-l2);
     color: var(--terciary);
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
 }
-.servicesDiv p{
+.aboutDiv p{
     font-size: var(--fz-mdL);
-    margin-bottom: 5%;
+    max-width: 800px;
+    text-align: center;
+    margin: auto auto 30px auto;
+}
+.aboutDiv h3{
+    max-width: 800px;
+    margin: auto auto 30px auto;
+    font-size: var(--fz-l);
+    font: italic;
+    
+}
+
+.aboutDiv Button{
+    font-size: var(--fz-md);
 }
 .portfolio_testimonials{
     width: 100%;
@@ -115,6 +131,8 @@
     background-color: white;
 }
 
+
+
 @media(min-width:600px){
 
     .portfolio,
@@ -123,7 +141,7 @@
         margin: auto;
         overflow: hidden;
     }
-    .servicesDiv h1{
+    .aboutDiv h1{
         font-size: var(--fz-xl1);
     }
     .servicesDiv{
@@ -133,6 +151,14 @@
     }
 
 }
+
+@media(min-width:850px){
+    .servicesDiv{
+        width: 90%;
+        margin-top: 10%;
+    }
+}
+
 
 @media(min-width:1200px){
     .portfolio_testimonials{
@@ -156,5 +182,18 @@
         max-width: 2000px;
         height: 100%;
         width: 100%;
+    }
+    .aboutDiv h1{
+        width: 1200px;
+        max-width: none;
+        font-size: var(--fz-xl2);
+        margin-bottom: 50px;
+    }
+
+
+    .aboutDiv p,
+    .aboutDiv h3{
+        width: 1200px;
+        max-width: none;
     }
 }

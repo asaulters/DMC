@@ -10,10 +10,31 @@ const Contact = () => {
             <p>Fill out the form below to request an estimate.*</p>
         </div>
         <form>
-            <input required type='text' placeholder='Name*' name='name'/>
-            <input required type='text' placeholder='Email*' name='email' />
-            <input type='text' placeholder='Phone Number' name='phone'/>
-            <input type='text' placeholder='Best Time to Contact' name='time' />
+            <input 
+              required 
+              type='text' 
+              placeholder='Name*' 
+              name='name'
+              className={classes.inputName}  
+              />
+            <input  
+              required 
+              type='text' 
+              placeholder='Email*' 
+              name='email' 
+              className={classes.inputEmail}  
+              />
+            <input 
+              type='text' 
+              placeholder='Phone Number' 
+              name='phone'
+              className={classes.inputNumber}  
+              />
+            <input type='text'  
+              placeholder='Best Time to Contact' 
+              name='time' 
+              className={classes.inputTime}  
+              />
             <textarea 
                 type='text' 
                 placeholder='Tell us about your project!*'

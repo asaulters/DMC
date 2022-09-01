@@ -15,6 +15,11 @@
     --fz-xl2: 45px;
 }
 
+html{
+    /* height: 100%; */
+    /* margin: 0%; */
+}
+
 .contactWrapper{
     background-color: var(--secondary);
     padding: 5%;
@@ -40,4 +45,38 @@ form input{
         width: 550px;
         margin: auto auto 5% auto;
     }
+}
+
+@media(min-width:1000px){
+    form{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 15% 15% 50% 20%;
+    }
+    .inputName{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .inputEmail{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .inputNumber{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .inputTime{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    form textarea{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        margin-bottom: 10px;
+    }
+    form button{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
 }
