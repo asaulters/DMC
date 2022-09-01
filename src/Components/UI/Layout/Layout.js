@@ -20,7 +20,7 @@ const Layout = ({children}) => {
                 </div>
                 <div className={classes.links_full}>
                         <NavLink to='/' className={classes.navLinks_a}>Home</NavLink>
-                        <NavLink to='/' className={classes.navLinks_a}>About</NavLink>
+                        <NavLink to='/about' className={classes.navLinks_a}>About</NavLink>
                         <NavLink to='/' className={classes.navLinks_a}>Services</NavLink>
                         <NavLink to='/' className={classes.navLinks_a}>Our Work</NavLink>
                         <NavLink to='/' className={classes.navLinks_a}>Contact</NavLink>

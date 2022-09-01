@@ -8,11 +8,13 @@
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     --fz-md: 16px;
+    
 }
 *{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: auto;
     width: 100%;
 
 }
@@ -20,12 +22,16 @@ body{
     height: 100%;
 }
 .layoutWrapper{
+    clear: both;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
+
 .mainHeader{
+    position: sticky;
+    top: 0;
     background-color: var(--secondary);
     width: 100%;
     height: fit-content;
@@ -68,7 +74,6 @@ nav{
     background-color: var(--secondary);
     z-index: 1000;
     width: 100%;
-    /* height: fit-content; */
     grid-row: 2/3;
     grid-column: 1/4;
     margin-left: 20%;
@@ -90,9 +95,7 @@ nav{
     text-align: center;
     font-weight: 500;
 }
-main{
-    grid-row: 2/3;
-}
+
 
 .mainFooter{
     grid-row: 3/4;
@@ -144,7 +147,6 @@ main{
     .navLinks_a{
         display: block;
         text-decoration: none;
-        /* color: var; */
         font-size: var(--fz-md);
         padding-top: 5px;
         text-align: center;

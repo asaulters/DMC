@@ -26,6 +26,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 5%;
+    min-height: fit-content;
 }
 p{
     font-size: var(--fz-mdL);

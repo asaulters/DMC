@@ -13,6 +13,7 @@
     --fz-l3:35px;
     --fz-xl1: 40px;
     --fz-xl2: 45px;
+    --fz-xxl: 55px;
 }
 .homeWrapper{
     width: 100%;
@@ -161,6 +162,17 @@
 
 
 @media(min-width:1200px){
+    .hero_wu{
+        width: 100%;
+        max-width: 700px;
+        margin: 100px auto auto 100px;
+
+        /* margin-bottom: 15%; */
+    }
+    .hero_wu h1{
+        font-size: var(--fz-xxl);
+        width: 100%;
+    }
     .portfolio_testimonials{
         display: grid;
         grid-template-columns: 50% 50%;
