@@ -1,0 +1,130 @@
+:root{
+    --primaryBackground: #FEFAE0;
+    --secondary: #606C38;
+    --terciary: #283618;
+    --quad: #DDA15E;
+    --cinq: #BC6C25;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-md: 16px;
+    --fz-mdL: 20px;
+    --fz-l:25px;
+    --fz-l2:30px;
+    --fz-l3:35px;
+    --fz-xl1: 40px;
+    --fz-xl2: 45px;
+    --fz-xxl: 55px;
+}
+.topWrapper{
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+.topTop{
+    text-align: center;
+    margin: 10% auto;
+    max-width: 80%;
+
+}
+.topTop h2{
+    font-size: var(--fz-l2); 
+     color: var(--secondary);
+     margin-bottom: 5%;
+}
+
+.line{
+    width: 60px;
+    height: 2px;
+    background: var(--secondary);
+    margin: auto auto 5% auto;
+}
+.topTop p span{
+    color: var(--secondary);
+}
+.operateDiv1{
+    display: grid;
+    /* grid-template-rows: 75% 25%; */
+    height: 850px;
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+.historyWU{
+    /* grid-row: 1/2; */
+    /* margin-bottom: 10%; */
+}
+.operateWU h2{
+    font-size: var(--fz-l3); 
+    color: var(--secondary);
+    margin-bottom: 5%;
+}
+.operateWU p{
+    font-size: var(--fz-mdL);
+}
+.operateWU img{
+    /* grid-row: 2/3; */
+    width: 100%;
+    /* margin-top: 10%; */
+}
+.designDiv{
+    display: grid;
+    /* grid-template-rows: 25% 75%; */
+    height: 900px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    gap: 20px;
+    /* background-color: rgb(207, 205, 205); */
+}
+
+.designWU{
+    margin-bottom: 0%;
+}
+
+.designWU h2{
+    font-size: var(--fz-l3); 
+    color: var(--secondary);
+    margin-bottom: 5%;
+}
+
+.designDiv img{
+    margin: 0%;
+}
+.designWU p{
+    font-size: var(--fz-mdL);
+    margin-bottom: 25px;
+}
+@media(min-width: 700px){
+    .operateDiv1,
+    .designDiv{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        gap: 20px;
+        max-width: 1500px;
+        margin: auto;
+        height: 600px;
+    }
+    .operateWU{
+        grid-column: 1/2;
+    }
+    .operateWU p,
+    .designWU p{
+        padding: auto 5%;
+    }
+    .operateDiv1 img{
+        grid-column: 2/3;
+        width: 95%;
+        /* margin: auto; */
+    }
+    .designWU{
+        grid-column: 2/3;
+    }
+    .designDiv img{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        width: 95%;
+        /* margin: auto; */
+    }
+    
+}

@@ -40,7 +40,7 @@ const KnowMore = () => {
             <div 
                 className={classes.dropHeading}
                 onClick={dropDownFunct1}
-                ><b>+</b> Capabilities</div>
+                ><b>{extend1? <b>- </b> : <b>&#43; </b>}</b> Capabilities</div>
                 {extend1 &&(
                     <p>Coming Soon!</p>
                 )}
@@ -55,21 +55,21 @@ const KnowMore = () => {
             <div 
                 className={classes.dropHeading}
                 onClick={dropDownFunct3}
-                ><b>+</b> Certifications and Insuarnce</div>
+                ><b>{extend3? <b>- </b> : <b>&#43; </b>}</b> Certifications and Insuarnce</div>
                 {extend3 &&(
                     <p>As a fully-licensed contractor, Mack Construction Co. carries all required liability insurance and we are fully bondable. Our crews comply with all state and federal health and safety legislation.</p>
                 )}  
             <div 
                 className={classes.dropHeading}
                 onClick={dropDownFunct4}
-                ><b>+</b> Permits and Planning</div>
+                ><b>{extend4? <b>- </b> : <b>&#43; </b>}</b> Permits and Planning</div>
                 {extend4 &&(
                     <p>There’s a lot more that goes into a successful construction, renovation and remodeling project than just what happens on site.<br/><br/>The most successful projects happen long before anyone is on site, before any hammer is swung or any materials purchased. It all starts with proper planning and compliance with local legislation.<br/><br/>The average renovation project undertaken varies, but with us, the time frame depends on issues such as: the complexity of the design, and the client’s presence at the site during the process.<br/><br/>That’s why, when we work on your project, the first thing we do after you sign the contract is to create a comprehensive project plan. We present you with a timelinefor the project and an explanation of the steps involved. Then we apply for any necessary permits, and when all the I’s are dotted and the T’s are crossed we start work on your renovation or remodel.<br/><br/>During every project, we pay close attention to the required inspection schedule too, and you can be sure that whenever an inspection is required, it will happen on time, and before we move to the next phase.</p>
                 )}
             <div 
                 className={classes.dropHeading}
                 onClick={dropDownFunct5}
-                ><b>+</b> Quality and Workmanship</div>
+                ><b>{extend5? <b>- </b> : <b>&#43; </b>}</b> Quality and Workmanship</div>
                 {extend5 &&(
                     <div> 
                         <p>We pride ourselves on our workmanship and on delivering quality results to our customers. For this reason, we take steps to ensure your satisfaction, including:</p>
@@ -84,7 +84,7 @@ const KnowMore = () => {
             <div 
                 className={classes.dropHeading}
                 onClick={dropDownFunct6}
-                ><b>+</b> Total Package</div>
+                ><b>{extend6? <b>- </b> : <b>&#43; </b>}</b> Total Package</div>
                 {extend6 &&(
                     <p>At Mack Construction Co., we believe in the big picture. We know that giving you the home or remodel you dream of is a multi-faceted process, that includes everything from good design and choosing the right materials, to making sure that processes are carefully followed.<br/><br/>We know that sometimes the walls of your home might be hiding safety hazards, and we’re always ready to take the proper steps to remediate the problem completely, and make sure your home is safe for your family.<br/><br/>Our team of experienced renovation contractors works with our clients to complete their projects on time, to specification and with as little disruption to their lives as possible.<br/><br/>That’s why Mack Construction Co is the total package in construction, renovation, and remodeling in the central Mississippi area.</p>
                 )}      
