@@ -1,10 +1,12 @@
 import React from 'react';
 
 import HeroImg from '../../../assets/Home/heroHome1.jpg';
-import historyImg from '../../../assets/About/kitchen-1.jpg';
+
 
 import classes from './About.module.css';
-import History from './History/History'
+import History from './History/History';
+import KnowMore from './KnowMore/KnowMore';
+import Contact from '../Home/Contact/Contact'
 
 const About = () => {
   return (
@@ -20,7 +22,10 @@ const About = () => {
     <div className={classes.historyDiv}>
         <History />
     </div>
-
+    <div className={classes.knowMoreDiv}>
+        <KnowMore />
+    </div>
+    <Contact />
     </div>
   )
 }

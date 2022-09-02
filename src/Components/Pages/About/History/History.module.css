@@ -1,0 +1,131 @@
+:root{
+    --primaryBackground: #FEFAE0;
+    --secondary: #606C38;
+    --terciary: #283618;
+    --quad: #DDA15E;
+    --cinq: #BC6C25;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-md: 16px;
+    --fz-mdL: 20px;
+    --fz-l:25px;
+    --fz-l2:30px;
+    --fz-l3:35px;
+    --fz-xl1: 40px;
+    --fz-xl2: 45px;
+    --fz-xxl: 55px;
+}
+.historyWrapper{
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+.historyTop{
+    text-align: center;
+    margin: 10% auto;
+    max-width: 80%;
+
+}
+.historyTop h2{
+    font-size: var(--fz-l2); 
+     color: var(--secondary);
+     margin-bottom: 5%;
+}
+
+.line{
+    width: 60px;
+    height: 2px;
+    background: var(--secondary);
+    margin: auto auto 5% auto;
+}
+.historyTop p span{
+    color: var(--secondary);
+}
+.historyTop h4{
+    font-size: var(--fz-mdL);
+    margin-top: 5%;
+    font-weight: 600;
+}
+.history1{
+    display: grid;
+    /* grid-template-rows: 75% 25%; */
+    height: 850px;
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+.historyWU{
+    /* grid-row: 1/2; */
+    /* margin-bottom: 10%; */
+}
+.history1 h2{
+    font-size: var(--fz-l3); 
+    color: var(--secondary);
+    margin-bottom: 5%;
+}
+.history1 p{
+    font-size: var(--fz-mdL);
+}
+.history1 img{
+    /* grid-row: 2/3; */
+    width: 100%;
+    /* margin-top: 10%; */
+}
+.history2{
+    display: grid;
+    /* grid-template-rows: 25% 75%; */
+    height: 900px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    gap: 20px;
+    /* background-color: rgb(207, 205, 205); */
+}
+.historyWU2{
+    /* grid-row: 2/3; */
+}
+.history2 h2{
+    font-size: var(--fz-l3); 
+    color: var(--secondary);
+    margin-bottom: 5%;
+}
+.history2 img{
+    /* grid-row: 1/2; */
+    margin-bottom: 5%;
+}
+.history2 p{
+    font-size: var(--fz-mdL);
+}
+
+@media(min-width: 700px){
+    .history1,
+    .history2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        max-width: 1500px;
+        margin: auto;
+        height: 600px;
+    }
+    .history1WU{
+        grid-column: 1/2;
+    }
+    .history1WU p,
+    .history2WU p{
+        padding: auto 5%;
+    }
+    .history1 img{
+        grid-column: 2/3;
+        width: 95%;
+        /* margin: auto; */
+    }
+    .history2WU{
+        grid-column: 2/3;
+    }
+    .history2 img{
+        grid-column: 1/2;
+        width: 95%;
+        /* margin: auto; */
+    }
+    
+}

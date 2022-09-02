@@ -1,0 +1,84 @@
+:root{
+    --primaryBackground: #FEFAE0;
+    --secondary: #606C38;
+    --terciary: #283618;
+    --quad: #DDA15E;
+    --cinq: #BC6C25;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-md: 16px;
+    --fz-mdL: 20px;
+    --fz-l:25px;
+    --fz-l2:30px;
+    --fz-l3:35px;
+    --fz-xl1: 40px;
+    --fz-xl2: 45px;
+    --fz-xxl: 55px;
+}
+
+
+.knowMoreWrapper{
+    width: 95%;
+    margin: 10% auto;
+}
+
+.dropDownDiv{
+    width: 100%;
+    /* margin: 10% auto; */
+}
+.dropDownDiv h2{
+    font-size: var(--fz-l3);
+    color: var(--secondary);
+}
+
+.dropHeading{
+    background-color: rgb(242, 238, 238);
+    font-size: var(--fz-mdL);
+    height: 40px;
+    padding: 10px 0px 0px 5px;
+    width: 100%;
+    cursor: pointer;
+    margin: 20px 0%;
+}
+
+
+@media(min-width:750px){
+    .knowMoreWrapper{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+        max-width: 1500px;
+    }
+    .dropDownDiv{
+        grid-column: 1/2;
+    }
+    .knowMoreWrapper img{
+        grid-column: 2/3;
+        margin-top: 16%;
+    }
+}
+
+@media(min-width: 950px){
+    .knowMoreWrapper img{
+       
+        margin-top: 14%;
+    }
+}
+@media(min-width: 1100px){
+    .knowMoreWrapper img{
+       
+        margin-top: 12%;
+    }
+}
+@media(min-width: 1200px){
+    .knowMoreWrapper img{
+       
+        margin-top: 5%;
+    }
+}
+@media(min-width: 1400px){
+    .knowMoreWrapper img{
+       
+        margin-top: 50;
+    }
+}
