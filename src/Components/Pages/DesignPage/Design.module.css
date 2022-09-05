@@ -1,0 +1,216 @@
+:root{
+    --primaryBackground: #FEFAE0;
+    --secondary: #606C38;
+    --terciary: #283618;
+    --quad: #DDA15E;
+    --cinq: #BC6C25;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-md: 16px;
+    --fz-mdL: 20px;
+    --fz-l:25px;
+    --fz-l2:30px;
+    --fz-l3:35px;
+    --fz-xl1: 40px;
+    --fz-xl2: 45px;
+    --fz-xxl: 55px;
+}
+
+.designWrapper{
+    width: 100%;
+    height: 100%;
+    background-color: var(--primaryBackground);
+    box-sizing: border-box;
+
+}
+.heroDiv{
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+.heroDiv img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .2;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.hero_wu{
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 120px auto auto auto;
+    width: 100%;
+    max-width: 500px;
+}
+.hero_wu h1{
+    color: var(--terciary);
+    font-size: var(--fz-xl1);
+    margin-bottom: 5%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.designTop{
+    text-align: center;
+    margin: 10% auto;
+    /* max-width: 80%; */
+
+}
+.designTop h2{
+    font-size: var(--fz-xl1); 
+     color: var(--secondary);
+     margin-bottom: 5%;
+}
+
+.line{
+    width: 60px;
+    height: 2px;
+    background: var(--secondary);
+    margin: auto auto 5% auto;
+}
+.designTop p {
+    width: 80%;
+    margin: auto;
+    font-size: var(--fz-mdL);
+}
+.designTop p span{
+    color: var(--secondary);
+}
+.discovery,
+.design,
+.planning,
+.construction,
+.initConvo,
+.consult,
+.estimate,
+.designAgreement,
+.preConstruction{
+    display: grid;
+    /* grid-template-rows: 75% 25%; */
+    height: fit-content;
+    margin-bottom: 10%;
+    overflow: hidden;
+    padding: 0% 5%;
+}
+.discoveryWU,
+.designWU,
+.planningWU,
+.constructionWU,
+.initConvoWU,
+.consultWU,
+.estimateWU,
+.designAgreementWU,
+.preConstructionWU{
+    margin-bottom: 10%;
+}
+
+
+.initConvoWU li,
+.consultWU li,
+.estimateWU li,
+.designAgreementWU li,
+.preConstructionWU li{
+    /* text-decoration: dotted; */
+    font-size: var(--fz-mdL);
+}
+
+.discoveryWU h2,
+.designWU h2,
+.planningWU h2,
+.constructionWU h2,
+.initConvoWU h2,
+.consultWU h2,
+.estimateWU h2,
+.designAgreementWU h2,
+.preConstructionWU h2{
+    font-size: var(--fz-l3); 
+    color: var(--terciary);
+    margin-bottom: 5%;
+}
+.discoveryWU h4,
+.designWU h4,
+.planningWU h4,
+.constructionWU h4,
+.initConvoWU h4,
+.consultWU h4,
+.estimateWU h4,
+.designAgreementWU h4,
+.preConstructionWU h4{
+    font-size: var(--fz-l);
+    color: var(--terciary);
+    margin-bottom: 5%;
+}
+
+.estimateWU h3,
+.consultWU h3,
+.designAgreementWU h3,
+.preConstructionWU h3{
+    font-size: var(--fz-mdL);
+    color: var(--terciary);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.discoveryWU p,
+.designWU p,
+.planningWU p,
+.constructionWU p,
+.initConvoWU p,
+.consultWU p,
+.estimateWU p,
+.designAgreementWU p,
+.preConstructionWU p{
+    font-size: var(--fz-mdL);
+}
+.discovery img,
+.design img,
+.planning img,
+.constructionWU img,
+.initConvoWU img,
+.consultWU img,
+.estimateWU img,
+.designAgreementWU img,
+.preConstructionWU img{
+    width: 100%;
+}
+
+@media(min-width:750px){
+    .discovery,
+    .design,
+    .planning,
+    .construction,
+    .initConvo,
+    .consult,
+    .estimate,
+    .designAgreement,
+    .preConstruction{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        gap: 20px;
+        max-width: 1500px;
+        margin: 5% auto;
+    }
+    .initConvoWU,
+    .estimateWU,
+    .preConstructionWU{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 90%;
+        
+    }
+    .discoveryWU,
+    .planningWU{
+        width: 90%;
+    }
+    .design img,
+    .construction img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+}

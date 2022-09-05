@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import classes from './Top.module.css';
 
@@ -24,7 +25,11 @@ const Top = () => {
             <div className={classes.designWU}>
                 <h2>Design</h2>
                 <p>Your new space is all about you. The design and engagement process is the first step in a home renovation that delivers everything you’ve always dreamed about.<br/><br/>We start by really listening to what you love, want and need. Then we take all those ideas, put them on paper and develop a design plan that brings it all to life.</p>
-                <button>Learn More</button>
+                <button>
+                    <NavLink to='/design' className={classes.designLink}>
+                        Learn More
+                    </NavLink>
+                </button>
             </div> 
             <img src={kitchen1} alt='kitchen' />
         </div>

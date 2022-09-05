@@ -28,7 +28,7 @@
 
 }
 .topTop h2{
-    font-size: var(--fz-l2); 
+    font-size: var(--fz-xl1); 
      color: var(--secondary);
      margin-bottom: 5%;
 }
@@ -38,6 +38,11 @@
     height: 2px;
     background: var(--secondary);
     margin: auto auto 5% auto;
+}
+.topTop p {
+    width: 80%;
+    margin: auto;
+    font-size: var(--fz-mdL);
 }
 .topTop p span{
     color: var(--secondary);
