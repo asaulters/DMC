@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import HeroImg from '../../../assets/Home/heroHome1.jpg';
 import kitchenPort from '../../../assets/Home/kitchen-interior.jpg';
@@ -10,6 +11,8 @@ import Services from './Services/Services'
 import Contact from './Contact/Contact';
 
 const Home = () => {
+
+
   return (
     <div className={classes.homeWrapper}>
       <div className={classes.heroDiv}>
@@ -17,7 +20,7 @@ const Home = () => {
         <div className={classes.hero_wu}>
           <h1>Transform your house into a home you're proud of.</h1>
           <h6>Proudly Serving Homeowners and Businesses in Mississippi for over 10 years.  </h6>
-          <Button message='Request an Estimate' />
+          <Button message='Request an Estimate'><NavLink to='contact' /></Button>
         </div>        
       </div>   
 

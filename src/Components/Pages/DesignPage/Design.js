@@ -21,7 +21,7 @@ const Design = () => {
         <div className={classes.heroDiv}>
             <img src={HeroImg} alt='Constructed Home' />
             <div className={classes.hero_wu}>
-            <h1>Discovery and Design</h1>
+            <h1>Design and Build Process</h1>
         </div>
     </div> 
 
@@ -95,8 +95,8 @@ const Design = () => {
                     <li>We will offer up our ideas and gauge whether you want them in the ballpark</li>
             </div> 
             <div className={classes.imgDiv1}>
-                <img src={discoveryImg} alt='pool' />
-                <br/><br/>
+                {/* <img src={discoveryImg} alt='pool' />
+                <br/><br/> */}
                 <img src={kitchen2} alt='kitchen' />
             </div>
 

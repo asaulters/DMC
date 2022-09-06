@@ -47,6 +47,36 @@ const Services = () => {
                     <Button message='Learn More' />
                 </div>
             </div>
+            <div className={classes.service4}>
+                <div className={classes.serviceTop}>
+                    <img src={bathroomPic} alt="home pic"/>
+                    <h2>{ServicesData[3].service}</h2>
+                </div>
+                <div className={classes.serviceWU}>
+                    <p>{ServicesData[3].shortDesc}</p>
+                    <Button message='Learn More' />
+                </div>
+            </div>
+            <div className={classes.service5}>
+                <div className={classes.serviceTop}>
+                    <img src={bathroomPic} alt="home pic"/>
+                    <h2>{ServicesData[4].service}</h2>
+                </div>
+                <div className={classes.serviceWU}>
+                    <p>{ServicesData[4].shortDesc}</p>
+                    <Button message='Learn More' />
+                </div>
+            </div>
+            <div className={classes.service6}>
+                <div className={classes.serviceTop}>
+                    <img src={bathroomPic} alt="home pic"/>
+                    <h2>{ServicesData[5].service}</h2>
+                </div>
+                <div className={classes.serviceWU}>
+                    <p>{ServicesData[5].shortDesc}</p>
+                    <Button message='Learn More' />
+                </div>
+            </div>
         </div>
         <div className={classes.pusher}></div>
     </div>

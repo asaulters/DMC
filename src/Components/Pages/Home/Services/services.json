@@ -7,13 +7,31 @@
   },
   {
     "service": "Kitchen",
-    "description": "Your kitchen is the heart of your home. A gathering place. A functional space that lets your creativity shine. One room where the whole family can gather and enjoy great meals and time together.    We know kitchens are so much more than cabinets and countertops. So that’s what we deliver. Find out more about our home renovationservices and custom kitchen remodels on this page or contact our team to find out what we can do for you.",
+    "description": "Your kitchen is the heart of your home. A gathering place. A functional space that lets your creativity shine. One room where the whole family can gather and enjoy great meals and time together. We know kitchens are so much more than cabinets and countertops. So that’s what we deliver. Find out more about our home renovationservices and custom kitchen remodels on this page or contact our team to find out what we can do for you.",
     "picture": "../../../../assets/Home/kitchen1.webp",
     "shortDesc": " Transform your kitchen into an efficient, beautiful space that becomes the heart of your home. Mack Construction Co serves homeowners in and around the central Mississippi area. Our…"
   },
   {
     "service": "Bathrooms",
-    "description": "Bathrooms used to be purely functional rooms. That’s not the case anymore. Your bathroom can be the spa-like retreat you dream of. It can be a place where you not only get clean, but relax, rejuvenate and take a little time to escape the world.     Our team can help you create that space, whether it’s in one small bathroom or several throughout your home. So, if you’re ready to take your bathrooms to the next level, we’re ready to help.",
+    "description": "Bathrooms used to be purely functional rooms. That’s not the case anymore. Your bathroom can be the spa-like retreat you dream of. It can be a place where you not only get clean, but relax, rejuvenate and take a little time to escape the world. Our team can help you create that space, whether it’s in one small bathroom or several throughout your home. So, if you’re ready to take your bathrooms to the next level, we’re ready to help.",
+    "picture": "../../../../assets/Home/bathroom1.webp",
+    "shortDesc": "Transform your bathroom into an oasis of privacy and relaxation. Mack Construction Co serves homeowners in and around the central Mississippi area with premier-quality home remodeling and renovation services. Our…"
+  },
+  {
+    "service": "Roofs",
+    "description": "No matter the state of your existing roof, Mack Construction Co. is here to help. We are experts at addressing everything from minor problems to full overhauls. If you are experiencing any issues at your home, call us for help. We can come out and examine your roof, looking for common red flags like loose or damaged shingles, moisture and mold damage, and structural weaknesses. We can perform residential roof repair services if there are smaller problems that can be fixed or entire home roof replacement services should the problems be too large for minor fixes. Rest assured that we will never upcharge you or do more work than you need. We understand the importance of a budget and won’t recommend full replacements unless it is necessary. If you are concerned about the safety and longevity of your roof or simply want us to come out and access the state of things, contact us for expert residential roofing advice and service.",
+    "picture": "../../../../assets/Home/living-room1.webp",
+    "shortDesc": "Protect your home and ensure it and your family are protected from whatever the weather can throw at it. Mack Construction Co serves homeowners in and around the central Mississippi area with premier-quality home remodeling and renovation services. Our…"
+  },
+  {
+    "service": "Outdoor Additions",
+    "description": "Is your home missing that all-important garage to park your car or store your belongings in? Perhaps you have been ready to build a garage to protect your vehicles from the weather for some time now. Do you wish you had a deck to take advantage of more summer grilling opportunities? Have you been dreaming of the perfect deck to relax and drink your morning coffee or have a nice evening meal on? DH Building & Son's has you covered! We offer high-quality garage and deck construction that comes backed by over 35 years of experience.",
+    "picture": "../../../../assets/Home/kitchen1.webp",
+    "shortDesc": " Transform your kitchen into an efficient, beautiful space that becomes the heart of your home. Mack Construction Co serves homeowners in and around the central Mississippi area. Our…"
+  },
+  {
+    "service": "New Builds",
+    "description": "Having the opportunity and capability to build your home exactly the way you want it, from the ground up, can be the most fulfilling of experiences. Right from the location of the house, to the layout, and construction, these homeowners get to enjoy full control.<br/><br/> When comparing a new construction to buying a readymade house that you may need to upgrade or remodel to achieve what you want, new constructions offer homeowners the chance to get it right the first time. Also, it is a prospect to learn more about construction work and all the activities that lead to execution. Even when you already have a lot of land to work with, there is much to consider. From utility connections to road access and gradient of the land, many factors will need to be considered in picking out the spot for the construction of the home and its design.>br/><br/>At BMC, we have worked on many residential new construction projects and are always happy to consult with new clients on how to begin the process. We help evaluate the property to be built upon and provide design services for custom homes. We believe that every family is unique with different needs and tastes. We take this into consideration when developing custom designs that will reflect this individuality. We focus on ensuring both indoor and outdoor living comforts and conveniences are accounted for.",
     "picture": "../../../../assets/Home/bathroom1.webp",
     "shortDesc": "Transform your bathroom into an oasis of privacy and relaxation. Mack Construction Co serves homeowners in and around the central Mississippi area with premier-quality home remodeling and renovation services. Our…"
   }
