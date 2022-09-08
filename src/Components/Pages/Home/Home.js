@@ -20,7 +20,11 @@ const Home = () => {
         <div className={classes.hero_wu}>
           <h1>Transform your house into a home you're proud of.</h1>
           <h6>Proudly Serving Homeowners and Businesses in Mississippi for over 10 years.  </h6>
-          <Button message='Request an Estimate'><NavLink to='contact' /></Button>
+          <button message='Request an Estimate'>
+            <NavLink to='/contact' className={classes.NavLinks}>
+              Request an Estimate
+            </NavLink>
+          </button>
         </div>        
       </div>   
 
@@ -29,13 +33,23 @@ const Home = () => {
         <p>Here at Mack Construction Co, we are family-owned residential  contractors. We specialize in renovations and new builds. Since 2012 we've been building a reputation as a reliable, knowledgeable, and client-focues general builder, renovation expert, and home design contractor.</p>
         <p>We're still the number one choice for homeowners looking to work with and established company that still values a personal touch and has pride in their work. We always go the extra mile to make your vision come to life.</p>
         <h3>We’re ready to help you make your vision of a beautiful home come to life with the expertise, guidance, skill, and integrity your home remodeling project deserves.</h3>
-        <Button className={classes.servicesDivButton2} message='About Us' />
+        <button className={classes.servicesDivButton2} message='About Us'>
+          <NavLink to='/about' 
+            className={classes.NavLinks}>
+              About Us
+          </NavLink>
+        </button>
       </div> 
 
       <div className={classes.portfolio_testimonials}>
         <div className={classes.portfolio}>
           <img src={kitchenPort} alt='kitchen picture' />
-          <div className={classes.galleryButton}>View Project Galleries</div>
+          <div className={classes.galleryButton}>
+            <NavLink to='/' 
+              className={classes.NavLinks}>
+                View Project Galleries
+            </NavLink>
+          </div>
         </div>
         <div className={classes.testimonial}>
           <Testimonials />

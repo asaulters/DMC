@@ -8,7 +8,7 @@ const Layout = ({children}) => {
 
     const LinkExtend = () =>{
         setExtend((curr) => !curr)
-    }
+    };
 
 
   return (
@@ -42,8 +42,11 @@ const Layout = ({children}) => {
                 </div>
             </nav>
         </header>
+
         <main>
-            {children}
+            <div>
+                {children}
+            </div>
         </main>
         <footer className={classes.mainFooter}>
             <div className={classes.footerLogoDiv}>
@@ -66,6 +69,6 @@ const Layout = ({children}) => {
             
     </div>
   )
-}
+};
 
 export default Layout

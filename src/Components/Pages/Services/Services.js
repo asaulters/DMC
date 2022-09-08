@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Services.module.css';
 import Top from './Top/Top';
-import ServiceList from '../../Pages/Home/Services/Services';
+import ServiceList from '../../Pages/Services/ServiceList/ServiceList';
 import Contact from '../../Pages/Home/Contact/Contact'
 
 import HeroImg from '../../../assets/Home/heroHome1.jpg';

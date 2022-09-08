@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
         <Layout>
-          <AppRoutes />
+          <div>
+            <AppRoutes /> 
+          </div>
         </Layout>
     </div>
   );

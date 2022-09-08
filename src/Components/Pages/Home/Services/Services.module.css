@@ -19,7 +19,14 @@
     width: 95%;
     margin: auto;
 }
+.NavLinks p{
+    text-decoration: none;
+    color: black;
 
+}
+button{
+    text-decoration: none;
+}
 .servicesList{
     display: flex;
     flex-direction: column;
@@ -39,7 +46,7 @@ p{
 .service6{
     display: grid;
     grid-template-rows: 40% 60%;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
     gap: 20px;
     overflow: hidden;
 }
@@ -48,7 +55,7 @@ p{
     display: grid;
     grid-template-columns: 100%;
     grid-row: 90% 10%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .serviceTop img{
     grid-column: 1/2;
@@ -66,6 +73,7 @@ p{
 }
 .serviceWU{
     grid-row: 2/3;
+    height: fit-content;
 }
 .serviceWU p{
     margin-bottom: 5%;
@@ -107,7 +115,7 @@ p{
         width: 100%;
         margin: 5% auto;
         box-sizing: border-box;
-        min-height: 1400px;
+        min-height: 1800px;
     }
     .servicesWU{
         max-width: 1000px;
@@ -197,5 +205,8 @@ p{
 }
 .serviceWU{
     margin: 5% auto auto 0%;
+}
+.servicesList{
+    margin: 5% auto;
 }
 }
