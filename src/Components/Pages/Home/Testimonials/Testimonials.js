@@ -11,6 +11,7 @@ import fiveStar from '../../../../assets/Home/5-star-2'
 const Testimonials = (props) => {
 
   const [testSlide, setTestSlide] = useState(0);
+  const [counter, setCounter] = useState(0);
 
   
   const makeTimer = () =>{
@@ -39,13 +40,23 @@ const Testimonials = (props) => {
   }
 
 const testScroll =() =>{
-  if( testSlide < testData.length){
+  if( testSlide <= testData.length){
     makeTimer();
   }else {
     resetTimer(0)
   }
 
 }
+
+
+  // {counter < 5 ?   setInterval(() => {
+  //   console.log(counter)
+  // }, 5000) : () => {
+  //   setCounter(0);
+  //   // counting();
+  // } };
+
+
 
   // if( testSlide < testData.length){
   //   setInterval(() => {
@@ -71,7 +82,8 @@ const testScroll =() =>{
         {/* {testSlide < testData.length? makeTimer() : resetTimer()} */}
         {/* {makeTimer()}; */}
         {/* {scrollFunction()} */}
-        {testScroll()}
+        {/* {testScroll()} */}
+        {/* {counting()} */}
         <h2>{testData[testSlide].heading}</h2>
         <p>Absolutely love my new master bath! It was a pleasure working with & getting to know Bryan & everyone at B&D Bluewater Builders. Honestly couldn't be happier with how everything turned out. I would highly recommend them!</p>
         <h6>Angela G., Raleigh NC</h6>

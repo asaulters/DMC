@@ -1,5 +1,5 @@
 :root{
-    --primaryBackground: #FEFAE0;
+    --primaryBackground: #faf8e9;
     --secondary: #606C38;
     --terciary: #283618;
     --quad: #DDA15E;
@@ -21,6 +21,7 @@
     background-color: var(--primaryBackground);
 }
 .heroDiv{
+    /* margin-top: 10; */
     width: 100%;
     height: 60vh;
     display: grid;
@@ -47,6 +48,7 @@
     color: var(--terciary);
     font-size: var(--fz-xl1);
     margin-bottom: 5%;
+    margin-left: 5%;
     font-weight: 600;
 }
 .hero_wu h6{
@@ -54,6 +56,10 @@
     font-size: var(--fz-l);
     margin-bottom: 5%;
     font-weight: 600;
+    margin-left: 5%;
+}
+.hero_wu button{
+    margin-left: 5%;
 }
 
 .aboutDiv{

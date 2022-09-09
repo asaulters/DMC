@@ -22,7 +22,7 @@ const Layout = ({children}) => {
                         <NavLink to='/' className={classes.navLinks_a}>Home</NavLink>
                         <NavLink to='/about' className={classes.navLinks_a}>About</NavLink>
                         <NavLink to='/services' className={classes.navLinks_a}>Services</NavLink>
-                        <NavLink to='/' className={classes.navLinks_a}>Our Work</NavLink>
+                        <NavLink to='/work' className={classes.navLinks_a}>Our Work</NavLink>
                         <NavLink to='/contact' className={classes.navLinks_a}>Contact</NavLink>
                     <button 
                         className={classes.burger} 
