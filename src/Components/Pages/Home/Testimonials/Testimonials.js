@@ -10,67 +10,35 @@ import fiveStar from '../../../../assets/Home/5-star-2'
 
 const Testimonials = (props) => {
 
-  const [testSlide, setTestSlide] = useState(0);
-  const [counter, setCounter] = useState(0);
+const [index, setIndex] = useState(0);
+const timeoutRef = useRef(null);
 
-  
-  const makeTimer = () =>{
-    
-    setInterval(() => {
-      setTestSlide((testSlide) => testSlide++)
-    }, 5000);
-    console.log('add 1,', {testSlide} )
+const resetTimeout = () =>{
+  if(timeoutRef.current){
+    clearTimeout(timeoutRef.current)
   }
-
-  const resetTimer=() => {
-    setTestSlide(0);
-    makeTimer();
-  }
-  const resetTwo = () =>{
-    
-  }
-
-  const scrollFunction = () =>{
-    //check if index is < json.data
-    console.log(testData.length)
-    {testSlide < testData.length ? makeTimer() :setTestSlide(0) }
-    //if greater, reset to 0
-
-    //if not, add 1
-  }
-
-const testScroll =() =>{
-  if( testSlide <= testData.length){
-    makeTimer();
-  }else {
-    resetTimer(0)
-  }
-
 }
+useEffect(() => {
+  resetTimeout();
+  timeoutRef.current = setTimeout(
+    () =>
+      setIndex((prevIndex) => 
+      prevIndex === testData.length -1 ? 0 : prevIndex +1),
+      20000
+  );
+  return () => {
+    resetTimeout();
+  };
+}, [index])
+  
 
 
-  // {counter < 5 ?   setInterval(() => {
-  //   console.log(counter)
-  // }, 5000) : () => {
-  //   setCounter(0);
-  //   // counting();
-  // } };
 
 
 
-  // if( testSlide < testData.length){
-  //   setInterval(() => {
-  //     setTestSlide((testSlide) => testSlide++)
-  //   }, 5000);
-  //   console.log('add 1,', {testSlide} )
-    
-  // } else{
-  //   setTestSlide(0);
-  //   setInterval(() => {
-  //     setTestSlide((testSlide) => testSlide++)
-  //   }, 5000);
-  //   console.log('add 1,', {testSlide} )
-  // };
+
+
+
 
   return (
     <div className={classes.testimonialWrapper}>
@@ -79,14 +47,10 @@ const testScroll =() =>{
             <img src={fiveStar} alt='star' />
 
         </div>
-        {/* {testSlide < testData.length? makeTimer() : resetTimer()} */}
-        {/* {makeTimer()}; */}
-        {/* {scrollFunction()} */}
-        {/* {testScroll()} */}
-        {/* {counting()} */}
-        <h2>{testData[testSlide].heading}</h2>
-        <p>Absolutely love my new master bath! It was a pleasure working with & getting to know Bryan & everyone at B&D Bluewater Builders. Honestly couldn't be happier with how everything turned out. I would highly recommend them!</p>
-        <h6>Angela G., Raleigh NC</h6>
+
+        <h2>{testData[index].heading}</h2>
+        <p>{testData[index].description}</p>
+        <h6>{testData[index].name}, {testData[index].location}</h6>
     </div>
   )
 }

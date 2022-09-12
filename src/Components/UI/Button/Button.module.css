@@ -1,7 +1,25 @@
-
+:root{
+    --primaryBackground: #faf8e9;
+    --secondary: #C9CBA3;
+    --terciary: #283618;
+    --quad: #FFE1A8;
+    --cinq: #E26D5C;
+    --six: #723D46;
+    --seven: #472D30;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-md: 16px;
+    --fz-mdL: 20px;
+    --fz-l:25px;
+    --fz-l2:30px;
+    --fz-l3:35px;
+    --fz-xl1: 40px;
+    --fz-xl2: 45px;
+    --fz-xxl: 55px;
+}
 
 button{
-    background-color: #DDA15E;
+    background-color: var(--quad);
     height: 50px;
     /* width: 80px; */
     max-width: 180px;

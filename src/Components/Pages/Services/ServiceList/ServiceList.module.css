@@ -1,10 +1,11 @@
 :root{
-    white-space: pre-line;
-    --primaryBackground: #FEFAE0;
-    --secondary: #606C38;
+    --primaryBackground: #faf8e9;
+    --secondary: #C9CBA3;
     --terciary: #283618;
-    --quad: #DDA15E;
-    --cinq: #BC6C25;
+    --quad: #FFE1A8;
+    --cinq: #E26D5C;
+    --six: #723D46;
+    --seven: #472D30;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     --fz-md: 16px;
@@ -14,6 +15,7 @@
     --fz-l3:35px;
     --fz-xl1: 40px;
     --fz-xl2: 45px;
+    --fz-xxl: 55px;
 }
 .servicesWrapper{
     width: 95%;

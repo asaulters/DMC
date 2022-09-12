@@ -1,7 +1,13 @@
 import React, {useState} from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
-import classes from './Layout.module.css'
+import classes from './Layout.module.css';
+import logo1 from '../../../assets/Layout/My project-1.png'
+import logo2 from '../../../assets/Layout/My project-1 (1).png'
+import logo3 from '../../../assets/Layout/My project-1 (2).png'
+import logo4 from '../../../assets/Layout/My project-1 (3).png'
+import logo5 from '../../../assets/Layout/logoTransAlone.png'
+import logo6 from '../../../assets/Layout/logoTrans1.png'
 
 const Layout = ({children}) => {
     const [extend, setExtend] = useState(false);
@@ -16,7 +22,7 @@ const Layout = ({children}) => {
         <header className={classes.mainHeader}>
             <nav className={classes.mainNav}>
                 <div className={classes.logoDiv}>
-                    <h2>DMC</h2>
+                    <img src={logo5} alt='MCC Logo' />
                 </div>
                 <div className={classes.links_full}>
                         <NavLink to='/' className={classes.navLinks_a}>Home</NavLink>
