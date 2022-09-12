@@ -29,7 +29,10 @@ const Services = () => {
                 <div className={classes.serviceWU}>
                     <p>{ServicesData[0].shortDesc}</p>
                     <button message='Learn More'>
-                        <NavLink to='/services'>Learn More</NavLink>
+                        <NavLink to='/services'
+                            className={classes.NavLinks}>
+                            Learn More
+                        </NavLink>
                     </button>
                 </div>
             </div>
@@ -41,7 +44,10 @@ const Services = () => {
                 <div className={classes.serviceWU}>
                     <p>{ServicesData[1].shortDesc}</p>
                     <button message='Learn More'>
-                        <NavLink to='/services'>Learn More</NavLink>
+                        <NavLink to='/services'
+                            className={classes.NavLinks}>
+                            Learn More
+                        </NavLink>
                     </button>
                 </div>
             </div>
@@ -53,7 +59,10 @@ const Services = () => {
                 <div className={classes.serviceWU}>
                     <p>{ServicesData[2].shortDesc}</p>
                     <button message='Learn More'>
-                        <NavLink to='/services'>Learn More</NavLink>
+                        <NavLink to='/services'
+                            className={classes.NavLinks}>
+                            Learn More
+                        </NavLink>
                     </button>
                 </div>
             </div>
@@ -65,7 +74,10 @@ const Services = () => {
                 <div className={classes.serviceWU}>
                     <p>{ServicesData[3].shortDesc}</p>
                     <button message='Learn More'>
-                        <NavLink to='/services'>Learn More</NavLink>
+                        <NavLink to='/services'
+                            className={classes.NavLinks}>
+                            Learn More
+                        </NavLink>
                     </button>
                 </div>
             </div>
@@ -77,7 +89,10 @@ const Services = () => {
                 <div className={classes.serviceWU}>
                     <p>{ServicesData[4].shortDesc}</p>
                     <button message='Learn More'>
-                        <NavLink to='/services'>Learn More</NavLink>
+                        <NavLink to='/services'
+                            className={classes.NavLinks}>
+                            Learn More
+                        </NavLink>
                     </button>
                 </div>
             </div>
@@ -89,7 +104,10 @@ const Services = () => {
                 <div className={classes.serviceWU}>
                     <p>{ServicesData[5].shortDesc}</p>
                     <button message='Learn More'>
-                        <NavLink to='/services'>Learn More</NavLink>
+                        <NavLink to='/services'
+                            className={classes.NavLinks}>
+                            Learn More
+                        </NavLink>
                     </button>
                 </div>
             </div>

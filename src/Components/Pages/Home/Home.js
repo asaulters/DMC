@@ -30,8 +30,8 @@ const Home = () => {
 
       <div className={classes.aboutDiv}>
         <h1>We specialize in premium-quality home remodeling and home renovation.</h1><br></br>
-        <p>Here at Mack Construction Co, we are family-owned residential  contractors. We specialize in renovations and new builds. Since 2012 we've been building a reputation as a reliable, knowledgeable, and client-focues general builder, renovation expert, and home design contractor.</p>
-        <p>We're still the number one choice for homeowners looking to work with and established company that still values a personal touch and has pride in their work. We always go the extra mile to make your vision come to life.</p>
+        <p>Here at <span>Mack Construction Co</span>, we are family-owned residential  contractors. We specialize in <span>renovations and new builds</span>. Since 2012 we've been building a reputation as a <span>reliable, knowledgeable, and client-focues general builder, renovation expert, and home design contractor</span>.</p>
+        <p>We're still the number one choice for homeowners looking to work with and established company that still values a <span>personal touch</span> and has <span>pride in their work</span>. We always go the extra mile to make your vision come to life.</p>
         <h3>We’re ready to help you make your vision of a beautiful home come to life with the expertise, guidance, skill, and integrity your home remodeling project deserves.</h3>
         <button className={classes.servicesDivButton2} message='About Us'>
           <NavLink to='/about' 

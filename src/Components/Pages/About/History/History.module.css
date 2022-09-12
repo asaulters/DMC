@@ -3,7 +3,7 @@
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
-    --cinq: #E26D5C;
+    --cinq: #b1372a;
     --six: #723D46;
     --seven: #472D30;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -31,8 +31,11 @@
 }
 .historyTop h2{
     font-size: var(--fz-l2); 
-     color: var(--secondary);
+     color: var(--cinq);
      margin-bottom: 5%;
+}
+.historyTop h4{
+    color: var(--cinq);
 }
 
 .line{
@@ -42,7 +45,7 @@
     margin: auto auto 5% auto;
 }
 .historyTop p span{
-    color: var(--secondary);
+    color: var(--cinq);
 }
 .historyTop h4{
     font-size: var(--fz-mdL);
@@ -62,11 +65,15 @@
 }
 .history1 h2{
     font-size: var(--fz-l3); 
-    color: var(--secondary);
+    color: var(--cinq);
     margin-bottom: 5%;
 }
 .history1 p{
     font-size: var(--fz-mdL);
+}
+.history1 p span,
+.history2 p span{
+    color: var(--cinq);
 }
 .history1 img{
     /* grid-row: 2/3; */
@@ -76,7 +83,7 @@
 .history2{
     display: grid;
     /* grid-template-rows: 25% 75%; */
-    height: 900px;
+    height: fit-content;
     margin-top: 10%;
     margin-bottom: 10%;
     overflow: hidden;
@@ -86,9 +93,10 @@
 .historyWU2{
     /* grid-row: 2/3; */
 }
+
 .history2 h2{
     font-size: var(--fz-l3); 
-    color: var(--secondary);
+    color: var(--cinq);
     margin-bottom: 5%;
 }
 .history2 img{
@@ -99,7 +107,7 @@
     font-size: var(--fz-mdL);
 }
 
-@media(min-width: 700px){
+@media(min-width: 720px){
     .history1,
     .history2{
         display: grid;

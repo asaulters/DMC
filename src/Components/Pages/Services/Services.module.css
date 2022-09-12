@@ -3,7 +3,7 @@
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
-    --cinq: #E26D5C;
+    --cinq: #b1372a;
     --six: #723D46;
     --seven: #472D30;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -48,9 +48,10 @@
     max-width: 500px;
 }
 .hero_wu h1{
-    color: var(--terciary);
+    color: var(--cinq);
     font-size: var(--fz-xl1);
     margin-bottom: 5%;
     font-weight: 600;
     text-align: center;
+    padding: 25px;
 }

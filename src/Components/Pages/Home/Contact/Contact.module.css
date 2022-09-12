@@ -3,7 +3,7 @@
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
-    --cinq: #E26D5C;
+    --cinq: #b1372a;
     --six: #723D46;
     --seven: #472D30;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -20,7 +20,7 @@
 
 
 .contactWrapper{
-    background-color: var(--secondary);
+    background-color: var(--cinq);
     padding: 5%;
     height: min-content;
     /* max-height: 150px; */
@@ -36,7 +36,7 @@
     height: 55px;
     margin: 20px auto;
     background-color: white;
-    color: var(--secondary);
+    color: var(--cinq);
     text-align: center;
     padding: 15px 0%;
     font-size: var(--fz-mdL);
@@ -68,7 +68,7 @@
         grid-column: 2/3;
         grid-row: 1/2;
         height: 80px;
-        padding-top: 20px;
+        padding-top: 10px;
         overflow: hidden;
         /* margin-top: 15px; */
         margin: 15px auto auto auto;
@@ -78,14 +78,21 @@
 
 @media(min-width:653px){
     .contactButton{
-        padding-top: 30px;
+        padding-top: 15px;
+    }
+}
+@media(min-width:680px){
+    .contactButton{
+        padding-top: 25px;
     }
 }
 
 @media(min-width:825px){
     /* .contactWrapper{} */
     .contactWrapper h2{
-        margin-top: 45px;
+        margin-top: 40px;
+        overflow: hidden;
+
     }
 }
 @media(min-width:900px){

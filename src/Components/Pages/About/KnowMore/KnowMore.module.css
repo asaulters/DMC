@@ -1,9 +1,11 @@
 :root{
-    --primaryBackground: #FEFAE0;
-    --secondary: #606C38;
+    --primaryBackground: #faf8e9;
+    --secondary: #C9CBA3;
     --terciary: #283618;
-    --quad: #DDA15E;
-    --cinq: #BC6C25;
+    --quad: #FFE1A8;
+    --cinq: #b1372a;
+    --six: #723D46;
+    --seven: #472D30;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     --fz-md: 16px;
@@ -28,14 +30,14 @@
 }
 .dropDownDiv h2{
     font-size: var(--fz-l3);
-    color: var(--secondary);
+    color: var(--cinq);
 }
 
 .dropHeading{
     background-color: rgb(242, 238, 238);
     font-size: var(--fz-mdL);
     height: 40px;
-    padding: 10px 0px 0px 5px;
+    padding: 7px 0px 0px 5px;
     width: 100%;
     cursor: pointer;
     margin: 20px 0%;
@@ -43,6 +45,9 @@
 .dropHeading:hover{
     background-color: var(--secondary);
     color: white;
+}
+p span{
+    color: var(--cinq);
 }
 
 

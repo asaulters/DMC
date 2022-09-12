@@ -3,7 +3,7 @@
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
-    --cinq: #E26D5C;
+    --cinq: #b1372a;
     --six: #723D46;
     --seven: #472D30;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -31,14 +31,14 @@
 }
 .topTop h2{
     font-size: var(--fz-xl1); 
-     color: var(--secondary);
+     color: var(--cinq);
      margin-bottom: 5%;
 }
 
 .line{
     width: 60px;
     height: 2px;
-    background: var(--secondary);
+    background: var(--cinq);
     margin: auto auto 5% auto;
 }
 .topTop p {
@@ -47,7 +47,7 @@
     font-size: var(--fz-mdL);
 }
 .topTop p span{
-    color: var(--secondary);
+    color: var(--cinq);
 }
 .operateDiv1{
     display: grid;
@@ -62,7 +62,7 @@
 }
 .operateWU h2{
     font-size: var(--fz-l3); 
-    color: var(--secondary);
+    color: var(--cinq);
     margin-bottom: 5%;
 }
 .operateWU p{
@@ -90,7 +90,7 @@
 
 .designWU h2{
     font-size: var(--fz-l3); 
-    color: var(--secondary);
+    color: var(--cinq);
     margin-bottom: 5%;
 }
 
@@ -100,6 +100,11 @@
 .designWU p{
     font-size: var(--fz-mdL);
     margin-bottom: 25px;
+}
+.NavLinks{
+    text-decoration: none;
+    color: black;
+    
 }
 @media(min-width: 700px){
     .operateDiv1,
@@ -133,5 +138,5 @@
         width: 95%;
         /* margin: auto; */
     }
-    
+
 }

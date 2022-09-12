@@ -3,7 +3,7 @@
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
-    --cinq: #E26D5C;
+    --cinq: #b1372a;
     --six: #723D46;
     --seven: #472D30;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -25,6 +25,11 @@
     text-decoration: none;
     color: black;
 
+}
+.NavLinks{
+    text-decoration: none;
+    color: black;
+    
 }
 button{
     text-decoration: none;
@@ -72,6 +77,7 @@ p{
     z-index: 1000;
     background-color: var(--quad
     );
+    text-align: center;
 }
 .serviceWU{
     grid-row: 2/3;
@@ -104,7 +110,7 @@ p{
     }
 }
 
-@media(min-width:700px){
+@media(min-width:750px){
     /* .servicesDiv{
         width: 95%;
         max-width: 1200px;
@@ -210,5 +216,8 @@ p{
 }
 .servicesList{
     margin: 5% auto;
+}
+.serviceTop h2{
+    padding-top: 10px;
 }
 }
