@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React, {useState, useRef} from 'react';
+import emailjs from 'emailjs-com';
 
 import classes from './Contact.module.css';
 
@@ -7,6 +7,20 @@ import HeroImg from '../../../assets/Home/heroHome1.jpg';
 import consultImg from '../../../assets/Contact/constructionWorker1.png';
 
 const Contact = () => {
+  const form = useRef();
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('service1', 'template1', form.current, 'Frzd6WBD0sB9revoS')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  }
+
   return (
     <div className={classes.contactWrapper}>
         <div className={classes.heroDiv}>
@@ -24,7 +38,7 @@ const Contact = () => {
       </div>
 
         <div className={classes.contactFormDiv}>
-           <form type='submit'>
+           <form type='submit' ref={form} onSubmit={sendEmail}>
                 <input type='text' name='Name' placeholder='Name*' required />
                 <input type='text' name='Email' placeholder='Email*' required />
                 <input type='text' name='Phone' placeholder='Phone*' required />
@@ -50,8 +64,8 @@ const Contact = () => {
                     <option value='<6'>Bathroom</option>
                     <option value='<12'>Roofing</option>
                 </select>
-                <textarea name='description' placeholder='Tell Us About Your Project*' required cols='10' rows='10'/>
-                <button type='submit'>Submit</button>
+                <textarea name='Description' placeholder='Tell Us About Your Project*' required cols='10' rows='10'/>
+                <button type='submit' >Submit</button>
            </form> 
         </div>       
 

@@ -56,7 +56,7 @@ const Layout = ({children}) => {
         </main>
         <footer className={classes.mainFooter}>
             <div className={classes.footerLogoDiv}>
-                <h2>DMC</h2>
+                <img src={logo6} alt='logo' />
             </div>
             <div className={classes.footer_links}>
                 <NavLink to='/' className={classes.footer_a}>Home</NavLink>

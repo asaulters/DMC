@@ -41,9 +41,13 @@
     padding: 15px 0%;
     font-size: var(--fz-mdL);
     border-radius: 15px;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-weight: 600;
     overflow: hidden;
+}
+.NavLinks{
+    text-decoration: none;
+    color: var(--cinq);
 }
 
 

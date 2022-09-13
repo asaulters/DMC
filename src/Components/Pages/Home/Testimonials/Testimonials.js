@@ -32,14 +32,6 @@ useEffect(() => {
 }, [index])
   
 
-
-
-
-
-
-
-
-
   return (
     <div className={classes.testimonialWrapper}>
         <div className={classes.stars}>

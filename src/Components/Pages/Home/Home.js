@@ -45,7 +45,7 @@ const Home = () => {
         <div className={classes.portfolio}>
           <img src={kitchenPort} alt='kitchen picture' />
           <div className={classes.galleryButton}>
-            <NavLink to='/' 
+            <NavLink to='/work' 
               className={classes.NavLinks}>
                 View Project Galleries
             </NavLink>

@@ -134,22 +134,22 @@ main{
     grid-row: 3/4;
     width: 100%;
     margin-top: auto;
-    /* height:2000px; */
-    /* position:absolute;
-    left:0;
-    bottom:0;
-    right:0; */
     background-color: black;
     text-align: center;
-
+    color: var(--cinq);
 }
 .mainFooter::after{
     display: none;
 }
 .footerLogoDiv{
-    color: white;
-    font-size: 40px;
+    color: var(--cinq);
+    /* font-size: 40px; */
     text-align: center;
+    margin-top: 10px;
+}
+.footerLogoDiv img{
+    width: 150px;
+    height: 80px;
 }
 .footer_links{
     display: flex;
@@ -159,12 +159,16 @@ main{
 .footer_a{
     text-decoration: none;
     font-size: var(--fz-md);
-    color: white;
+    color: var(--cinq);
 }
 .footer_copy{
-    color: white;
+    color: var(--cinq);
     font-size: var(--fz-md);
     text-align: center;
+
+}
+.footer_copy p{
+    font-size: var(--fz-md);
 }
 
 
@@ -198,12 +202,73 @@ main{
     }
 }
 
-@media(min-width:750px){
+@media(min-width:550px){
+    .mainFooter{
+        height: 250px;
+        display: grid;
+        /* grid-template-columns: 35% 65%; */
+        grid-template-rows: 40% 20% 40%;
+    }
+    .footerLogoDiv{
+        /* grid-column: 1/2; */
+        grid-row: 1/2;
+        margin-top: 5%;
+    }
+    .footerLogoDiv img{
+        width: 120px;
+        height: 60px;
+        margin: auto;
+    }
+    .footer_links{
+        /* grid-column: 2/3; */
+        grid-row: 2/3;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-around;
+        margin: auto;
+        /* grid-column: 50% 50%; */
+    }
+    .footer_copy{
+        /* margin-top: 10%; */
+        /* grid-column: 1/2; */
+        grid-row: 3/4;
+    }
+}
+
+
+@media(min-width:740px){
     nav{
         grid-template-columns: 20% 20% 60%;
     }
     .links_full{
         grid-column: 3/4;
+    }
+    .mainFooter{
+        grid-template-columns: 33% 33% 33%;
+        height: 200px;
+        grid-template-rows: 100%;
+    }
+    .footerLogoDiv{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .footerLogoDiv img{
+        margin-top: 20%;
+        height: 90px;
+        width: 180px;
+    }
+    .footer_links{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        flex-direction: column;
+        margin: auto;
+    }
+    .footer_copy{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin-top: auto;
     }
     
 }

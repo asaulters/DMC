@@ -44,7 +44,7 @@ const Work = () => {
 
         <div className={classes.galleryDiv}>
             <div className={classes.galleryTop}>
-                <h2>Some Of Our Work</h2>
+                <h2>Our Work</h2>
                 <div className={classes.line}></div>
             </div>
             <div className={classes.galleryBaths}>

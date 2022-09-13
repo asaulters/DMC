@@ -102,10 +102,24 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
-/* @media(min-width:600px) {
-    .galleryList img{
-        width: 50%;
-        height: 50%;
+@media(min-width:650px) {
+    .galleryList {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 300px 300px 300px;
     }
+
     
-} */
+}
+@media(min-width:1000px) {
+    .galleryList {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 300px 300px ;
+        max-width: 1500px;
+    }
+
+    
+}
