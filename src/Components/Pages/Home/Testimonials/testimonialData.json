@@ -1,9 +1,9 @@
 [
     {
-    "name": "Adam S.",
-    "heading": "Oh Wow",
-    "description": " wow wow wow wow wow",
-    "location": "Durham, NC"
+    "name": "Jim P.",
+    "heading": "By far the best value and customer service I've seen.",
+    "description": "We've contracted Mack Construction on multiple occasions. They've always been an excelent choice.",
+    "location": "Rankin, MS"
 },
 {
     "name": "Angela G.",
@@ -13,8 +13,14 @@
 },
 {
     "name": "Kelly S.",
-    "heading": "Splendid",
-    "description": " Skadoosh",
-    "location": "Durham, NC"
+    "heading": "Highly recommend",
+    "description": "Mack Construction Co. came in to help with renovations to my living room and sun room. They were fast, had beautful work, and stayed under budget. Highly Recommend!",
+    "location": "Simpson, MS"
+},
+{
+    "name": "Casee S.",
+    "heading": "Helped turn my house into a home",
+    "description": "We just bought a new house that needed some work. Mack Construction came in and were able to do every update I asked for and make it look amazing, so my family and I could have the home we've always wanted.",
+    "location": "Simpson, MS"
 }
 ]

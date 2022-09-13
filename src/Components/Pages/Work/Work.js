@@ -38,7 +38,7 @@ const Work = () => {
         <div className={classes.heroDiv}>
             <img src={HeroImg} alt='Constructed Home' />
             <div className={classes.hero_wu}>
-                <h1>About Us</h1>
+                <h1>Gallery</h1>
             </div>        
         </div> 
 

@@ -1,9 +1,9 @@
 :root{
-    --primaryBackground: #faf8e9;
+    --primaryBackground: #f7f8f5;
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
-    --cinq: #E26D5C;
+    --cinq: #b1372a;
     --six: #723D46;
     --seven: #472D30;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -43,7 +43,7 @@
 .hero_wu{
     display: flex;
     justify-content: center;
-    z-index: 1000;
+    z-index: 10;
     grid-row: 1/2;
     grid-column: 1/2;
     margin: 80px auto auto auto;
@@ -51,9 +51,10 @@
     max-width: 500px;
 }
 .hero_wu h1{
-    color: var(--terciary);
+    color: var(--cinq);
     font-size: var(--fz-xl2);
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
+    margin-top: 25px;
     font-weight: 600;
     text-align: center;
 }
@@ -66,14 +67,14 @@
 }
 .designTop h2{
     font-size: var(--fz-xl1); 
-     color: var(--secondary);
+     color: var(--cinq);
      margin-bottom: 5%;
 }
 
 .line{
     width: 60px;
     height: 2px;
-    background: var(--secondary);
+    background: var(--cinq);
     margin: auto auto 5% auto;
 }
 .designTop p {
@@ -82,7 +83,7 @@
     font-size: var(--fz-mdL);
 }
 .designTop p span{
-    color: var(--secondary);
+    color: var(--cinq);
 }
 
 /* .initConvo,
@@ -142,7 +143,7 @@
 .designAgreementWU h2,
 .preConstructionWU h2{
     font-size: var(--fz-l3); 
-    color: var(--terciary);
+    color: var(--cinq);
     margin-bottom: 5%;
 }
 .discoveryWU h4,
@@ -155,7 +156,7 @@
 .designAgreementWU h4,
 .preConstructionWU h4{
     font-size: var(--fz-l);
-    color: var(--terciary);
+    color: var(--cinq);
     margin-bottom: 5%;
 }
 
@@ -164,7 +165,7 @@
 .designAgreementWU h3,
 .preConstructionWU h3{
     font-size: var(--fz-mdL);
-    color: var(--terciary);
+    color: var(--cinq);
     margin-bottom: 5px;
     margin-top: 10px;
 }

@@ -1,5 +1,5 @@
 :root{
-    --primaryBackground: #faf8e9;
+    --primaryBackground: #f7f8f5;
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
@@ -19,7 +19,7 @@
 }
 .servicesWrapper{
     width: 95%;
-    margin: auto;
+    margin: 25px auto auto auto;
 }
 .NavLinks p{
     text-decoration: none;
@@ -33,6 +33,9 @@
 }
 button{
     text-decoration: none;
+}
+.servicesWU h1{
+    color: var(--cinq);
 }
 .servicesList{
     display: flex;
@@ -77,6 +80,7 @@ p{
     z-index: 1000;
     background-color: var(--quad
     );
+    /* color: var(--cinq); */
     text-align: center;
 }
 .serviceWU{
@@ -94,6 +98,7 @@ p{
     }
     .servicesWU h1{
         font-size: var(--fz-xl1);
+        color: var(--cinq);
     }
     .servicesWU p{
         font-size: var(--fz-mdL);

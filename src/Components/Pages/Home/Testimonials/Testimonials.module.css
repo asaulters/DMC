@@ -1,5 +1,5 @@
 :root{
-    --primaryBackground: #faf8e9;
+    --primaryBackground: #f7f8f5;
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
@@ -22,6 +22,7 @@
     padding: 7%;
     text-align: center;
     max-height: 400px;
+    overflow: hidden;
 }
 .stars{
     display: flex;
@@ -35,6 +36,7 @@
 }
 .testimonialWrapper h2{
     margin-bottom: 5%;
+    
 }
 .testimonialWrapper p{
     margin-bottom: 5%;

@@ -1,5 +1,5 @@
 :root{
-    --primaryBackground: #faf8e9;
+    --primaryBackground: #f7f8f5;
     --secondary: #C9CBA3;
     --terciary: #283618;
     --quad: #FFE1A8;
@@ -40,7 +40,7 @@
 .hero_wu{
     display: flex;
     justify-content: center;
-    z-index: 1000;
+    z-index: 10;
     grid-row: 1/2;
     grid-column: 1/2;
     margin: 120px auto auto auto;
