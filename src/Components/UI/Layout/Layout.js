@@ -2,10 +2,6 @@ import React, {useState} from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
 import classes from './Layout.module.css';
-import logo1 from '../../../assets/Layout/My project-1.png'
-import logo2 from '../../../assets/Layout/My project-1 (1).png'
-import logo3 from '../../../assets/Layout/My project-1 (2).png'
-import logo4 from '../../../assets/Layout/My project-1 (3).png'
 import logo5 from '../../../assets/Layout/logoTransAlone.png'
 import logo6 from '../../../assets/Layout/logoTrans1.png'
 

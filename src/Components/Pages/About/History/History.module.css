@@ -59,10 +59,7 @@
     margin-bottom: 10%;
     overflow: hidden;
 }
-.historyWU{
-    /* grid-row: 1/2; */
-    /* margin-bottom: 10%; */
-}
+
 .history1 h2{
     font-size: var(--fz-l3); 
     color: var(--cinq);
@@ -89,9 +86,6 @@
     overflow: hidden;
     gap: 20px;
     /* background-color: rgb(207, 205, 205); */
-}
-.historyWU2{
-    /* grid-row: 2/3; */
 }
 
 .history2 h2{

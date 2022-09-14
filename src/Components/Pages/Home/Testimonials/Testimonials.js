@@ -35,7 +35,7 @@ useEffect(() => {
   return (
     <div className={classes.testimonialWrapper}>
         <div className={classes.stars}>
-            {/* <img src={fourStar} alt='star' /> */}
+
             <img src={fiveStar} alt='star' />
 
         </div>

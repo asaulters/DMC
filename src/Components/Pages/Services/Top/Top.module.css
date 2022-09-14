@@ -56,10 +56,7 @@
     margin-bottom: 10%;
     overflow: hidden;
 }
-.historyWU{
-    /* grid-row: 1/2; */
-    /* margin-bottom: 10%; */
-}
+
 .operateWU h2{
     font-size: var(--fz-l3); 
     color: var(--cinq);

@@ -26,9 +26,7 @@ const ServiceList = () => {
                     <h2>{ServicesData[0].service}</h2>
                 </div>
                 <div className={classes.serviceWU1}>
-                    {/* <h2>{ServicesData[0].service}</h2> */}
                     <p>{ServicesData[0].description}</p>
-                    {/* <Button message='Learn More' /> */}
                 </div>
             </div>
             <div className={classes.service2}>
@@ -38,7 +36,6 @@ const ServiceList = () => {
                 </div>
                 <div className={classes.serviceWU2}>
                     <p>{ServicesData[1].description}</p>
-                    {/* <Button message='Learn More' /> */}
                 </div>
             </div>
             <div className={classes.service3}>
@@ -48,7 +45,6 @@ const ServiceList = () => {
                 </div>
                 <div className={classes.serviceWU1}>
                     <p>{ServicesData[2].description}</p>
-                    {/* <Button message='Learn More' /> */}
                 </div>
             </div>
             <div className={classes.service4}>
@@ -58,7 +54,6 @@ const ServiceList = () => {
                 </div>
                 <div className={classes.serviceWU2}>
                     <p>{ServicesData[3].description}</p>
-                    {/* <Button message='Learn More' /> */}
                 </div>
             </div>
             <div className={classes.service5}>
@@ -68,7 +63,6 @@ const ServiceList = () => {
                 </div>
                 <div className={classes.serviceWU1}>
                     <p>{ServicesData[4].description}</p>
-                    {/* <Button message='Learn More' /> */}
                 </div>
             </div>
             <div className={classes.service6}>
@@ -78,7 +72,6 @@ const ServiceList = () => {
                 </div>
                 <div className={classes.serviceWU2}>
                     <p>{ServicesData[5].description}</p>
-                    {/* <Button message='Learn More' /> */}
                 </div>
             </div>
         </div>

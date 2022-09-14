@@ -36,7 +36,6 @@ const Design = () => {
                 <h2>Initial Conversation</h2>
                 <h4>Is your project scope a good fit for both parties?</h4>
                 <p>During our initial contact with the homeowner, we’re gathering important general information about the project determining whether the project is a good fit for both parties. Here are some topics we like to discuss before we schedule an in-person consultation:<br/><br/></p>
-                {/* <ul className={classes.wuUL}> */}
                     <li>Summary of the project</li>
                     <li>What you’d like from us</li>
                     <li>Have you started the design / plans process?</li>
@@ -50,7 +49,6 @@ const Design = () => {
                     <li>What do you value most relative to choosing a builder?</li>
                     <li>Quick overview of our process and services</li>
                     <li>Scheduling a visit</li>
-                {/* </ul> */}
             </div> 
             <img src={initImg} alt='Sunroom' />
         </div>
@@ -95,8 +93,6 @@ const Design = () => {
                     <li>We will offer up our ideas and gauge whether you want them in the ballpark</li>
             </div> 
             <div className={classes.imgDiv1}>
-                {/* <img src={discoveryImg} alt='pool' />
-                <br/><br/> */}
                 <img src={kitchen2} alt='kitchen' />
             </div>
 
@@ -148,47 +144,7 @@ const Design = () => {
             </div> 
             <img src={constructionImg} alt='Construction Foreman' />
         </div>
-
-
-{/* 
-        <div className={classes.discovery}>
-            <div className={classes.discoveryWU}>
-                <h2>Discovery</h2>
-                <h4>What is your vision for your home?</h4>
-                <p>Starting our, we'll discuss what your vision is for your home: ideas, photos, and any suggestions or wants you may have. Here we can learn how we are best able to make that come to life. We may also discuss budget parameters and other project objectives. This is the first step towards your dream home.</p>
-            </div> 
-            <img src={discoveryImg} alt='Construction Foreman' />
-        </div>
-        
-        <div className={classes.design}>
-            <div className={classes.designWU}>
-                <h2>Design</h2>
-                <h4>Let's bring that vision to life!</h4>
-                <p>This is the exciting part. After we understand what you want out of this project, we work with you to review drawings and renderings, discuss products and materials and talk plan options. The goal is to ensure a shared vision of the end result of your project, and a mutual understanding of the path to completion.</p>
-            </div> 
-            <img src={designImg} alt='Construction Foreman' />
-        </div>
-        <div className={classes.planning}>
-            <div className={classes.planningWU}>
-                <h2>Planning</h2>
-                <h4>Planning, preparation and peace of mind.</h4>
-                <p>Plans are finalized, materials specified—and a detailed budget and schedule will show you what will be done, when, and exactly what it will cost. Our budgeting process takes all project requirements and costs into account, so you can count on the budget we present.</p>
-            </div> 
-            <img src={planningImg} alt='Construction Foreman' />
-        </div>
-        <div className={classes.construction}>
-            <div className={classes.constructionWU}>
-                <h2>Construction</h2>
-                <h4>Unmatched care and craftsmanship.</h4>
-                <p>At this stage, Mack Construction Co. handles every aspect of your project. From scheduling, managing subcontractors, ordering materials, coordinating permits and inspections, we do all of this to make sure it is as smooth as possible. Our carpenters bring a level of skill and craftsmanship that is simply second to none. And your dedicated project manager will keep things on task, on time, and on the money. Trust us: As your project moves along, you’ll realize the benefits of having one point-of-contact throughout. All so you will have a beautiful, functional new space in your home.</p>
-            </div> 
-            <img src={constructionImg} alt='Construction Foreman' />
-        </div> */}
-
     <Contact />
-
-      
-
     </div>
   )
 }
