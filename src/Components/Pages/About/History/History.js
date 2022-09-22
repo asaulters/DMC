@@ -26,7 +26,7 @@ const History = () => {
           <h2>Who We Are</h2>
           <p>
             <span>Mack Construction Co</span> was created by{" "}
-            <span>Devin Mack. </span> After working in the construction industry
+            <span>Devan Mack. </span> After working in the construction industry
             under many different companies and learning from some of the most
             skilled tradesmen around, Devin noticed that things could be done
             differently.
