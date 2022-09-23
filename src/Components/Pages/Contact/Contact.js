@@ -33,7 +33,7 @@ const Contact = () => {
       <div className={classes.contactTop}>
         <h2>Request a Free Consultation</h2>
         <div className={classes.line}></div>
-        <p>We would love to hear from you and see in Mack Construction Co is a good fit for your project. Please call our office at (601) 946-5386 or fill out the form below and we will get back to you as soon as possible.</p>
+        <p>We would love to hear from you and see if Mack Construction Co is a good fit for your project. Please call our office at (601) 946-5386 or fill out the form below and we will get back to you as soon as possible.</p>
 
       </div>
 
